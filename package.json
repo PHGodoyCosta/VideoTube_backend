@@ -1,0 +1,21 @@
+{
+    "name": "videotube_backend",
+    "version": "1.0.0",
+    "description": "API do projeto VideoTube",
+    "main": "./src/server.ts",
+    "scripts": {
+        "start": "ts-node ./src/server.ts"
+    },
+    "author": "Pedro Henrique Godoy Costa",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.1",
+        "prisma": "^5.22.0"
+    }
+}
